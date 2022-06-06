@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page layout="3columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="header.container" htmlId="header" >
+			<block class="Manew\Modulepage\Block\Page" name="manew_header" template="Manew_Modulepage::header.phtml" />
+		</referenceContainer>
+		
+		<referenceContainer name="main.content">
+			<block class="Manew\Modulepage\Block\Page" name="manew_slideshow" template="Manew_Modulepage::slideshow.phtml" />
+			<block class="Manew\Modulepage\Block\Page" name="manew_bestsellers" template="Manew_Modulepage::bestsellers.phtml" />
+			<block class="Manew\Modulepage\Block\Page" name="manew_widget_deal" template="Manew_Modulepage::widget_deal.phtml" />
+			<block class="Manew\Modulepage\Block\Page" name="manew_product_category" template="Manew_Modulepage::product_category.phtml" />
+		</referenceContainer>
+		<referenceContainer name="footer-container">
+			<block class="Manew\Modulepage\Block\Page" name="manew_footer" template="Manew_Modulepage::footer.phtml" />
+		</referenceContainer>
+		<referenceBlock name="report.bugs" remove="true" />
+		<referenceBlock name="header.panel.wrapper" remove="true" />
+		<referenceBlock name="header-wrapper" remove="true" />
+		<referenceBlock name="page.top" remove="true" />
+		<referenceBlock name="columns" remove="true" />
+		<referenceBlock name="columns.top" remove="true" />
+		<referenceBlock name="footer" remove="true" />
+    </body>
+</page>
