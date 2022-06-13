@@ -126,8 +126,9 @@ return array (
     'Magento_WidgetSampleData' => 1,
     'Magento_Wishlist' => 1,
     'Magento_WishlistSampleData' => 1,
+    'Mageplaza_Slideshow' => 1,
     'Manew_Modulepage' => 1,
     'Shopial_Facebook' => 1,
-    'Zalrol_Modulehello' => 1,
+    'Vu_Blog' => 1,
   ),
 );
